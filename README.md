@@ -1,8 +1,6 @@
 # add-all-coupons
 Various services (such as grocery rewards programs) have an annoying habit of requiring you to log in to their website and "add" a coupon to your account 
-before you can use it; it's not just automatically addd to your account like it should be.
-
-These are just a colleciton of copypastable scripts that you can use to add all the coupons in one go. 
+before you can use it. These are just a colleciton of copypastable scripts that you can use to add all the coupons in one go. 
 
 ## To use
 
