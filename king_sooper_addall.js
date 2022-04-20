@@ -1,3 +1,5 @@
+// WARNING: King Soopers limits the coupons on card to only 150. Booooooooo.
+
 function gtm_e_selectCoupon () {};
 (async function () {
     function sleep(e) {
@@ -17,7 +19,7 @@ function gtm_e_selectCoupon () {};
     }
     async function click_all() {
         var coupons = document.getElementsByClassName("kds-Button kds-Button--primary kds-Button--compact CouponActionButton shadow-4 hover:shadow:2 CouponCard-button ml-8 false w-1/2 body-m font-500");
-        for (i = 0; i < coupons.length; i++){
+        for (i = 0; i < coupons.length; ){
             try {
                 coupons[i].click();
             }
